@@ -1,0 +1,45 @@
+article{
+    min-height: 425px;
+    background-size: 320px 425px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+}
+
+article a {
+    align-self: flex-start;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  article a:hover {
+    background-color: white;
+    color: black;
+  }
+
+.ar-1{
+    background-image: url(./src/images/image1.jpg);
+}
+
+
+.ar-2{
+    background-image: url(./src/images/image2.jpg);
+}
+
+.ar-3{
+    background-image: url(./src/images/image3.jpg);
+}
+
+
+.ar-4{
+    background-image: url(./src/images/image4.jpg);
+}
+
+.bg-gray{
+    background-color: gray;
+}
